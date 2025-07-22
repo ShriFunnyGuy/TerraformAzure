@@ -1,0 +1,36 @@
+# Terraform State
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform plan output
+*.tfplan
+
+# Sensitive files
+.terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Directory for modules/plugins/providers
+.terraform/
+nextlevel/.terraform
+winTerraform/.terraform
+nextlevel/.terraform/providers/registry.terraform.io/hashicorp/azurerm/4.37.0/windows_amd64/terraform-provider-azurerm_v4.37.0_x5.exe
+# Local override files (user-specific)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration file (may contain credentials)
+.terraformrc
+terraform.rc
+# Ignore local environment files
+# Ignore .env files
+.env
+
+# Ignore temp folders
+temp/
+**/temp/
